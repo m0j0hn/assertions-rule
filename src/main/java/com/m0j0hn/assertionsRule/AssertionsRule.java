@@ -38,7 +38,7 @@ public class AssertionsRule implements TestRule {
         return this;
     }
 
-    public Statement apply(final Statement base, Description description) {
+    public Statement apply(final Statement base, final Description description) {
 
         return new Statement() {
             @Override

@@ -15,5 +15,5 @@ repositories{
 dependencies{
     //compile 'org.slf4j:slf4j-api:1.+'
     compile 'com.google.inject:guice:3.+'
-    testCompile 'junit:junit:4.+'
+    compile 'junit:junit:4.+'
 }
